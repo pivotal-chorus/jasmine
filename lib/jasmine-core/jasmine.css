@@ -15,13 +15,13 @@ body { background-color: #eeeeee; padding: 0; margin: 5px; overflow-y: scroll; }
 .html-reporter .symbol-summary li.passed { font-size: 14px; }
 .html-reporter .symbol-summary li.passed:before { color: #5e7d00; content: "\02022"; }
 .html-reporter .symbol-summary li.failed { line-height: 9px; }
-.html-reporter .symbol-summary li.failed:before { color: #b03911; content: "x"; font-weight: bold; margin-left: -1px; }
+.html-reporter .symbol-summary li.failed:before { color: #b03911; content: "\d7"; font-weight: bold; margin-left: -1px; }
 .html-reporter .symbol-summary li.disabled { font-size: 14px; }
 .html-reporter .symbol-summary li.disabled:before { color: #bababa; content: "\02022"; }
 .html-reporter .symbol-summary li.pending { line-height: 17px; }
 .html-reporter .symbol-summary li.pending:before { color: #ba9d37; content: "*"; }
 .html-reporter .exceptions { color: #fff; float: right; margin-top: 5px; margin-right: 5px; }
-.html-reporter .bar { line-height: 28px; font-size: 14px; display: block; color: #eee; }
+.html-reporter .bar { line-height: 28px; font-size: 14px; display: block; color: #eee; position: relative; }
 .html-reporter .bar.failed { background-color: #b03911; }
 .html-reporter .bar.passed { background-color: #a6b779; }
 .html-reporter .bar.skipped { background-color: #bababa; }
